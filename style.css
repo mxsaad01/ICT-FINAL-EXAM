@@ -1,0 +1,824 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.hero-section {
+    background: url('https://www.harvard.edu/wp-content/uploads/2024/12/040214_Yoga_184.CR2_.jpeg?w=1246') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.homepage-buttons{
+    filter: invert(1);
+ width: 30px;
+ height: 30px;
+}
+.overlay {
+    background: #d3d2d2a1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    padding-left: 2.5rem;
+    height: 6rem;
+    
+}
+.header-actions{
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 18rem;
+  color: white;
+  background-color: #000;
+}
+.header-actions a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 16px;
+}
+.srch p{
+  margin-top: 0.5rem;
+}
+.srch{
+  display: flex;
+  margin-right: 3rem;
+}
+.hero-text{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-text h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+    font-size:7rem;
+    color: #1E1E1E;
+    /* margin-bottom: 10px; */
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 600px;
+    /* margin: auto; */
+}
+
+
+/* resolution-section code start here  */
+
+.resolution-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F4F4; 
+    padding: 50px 20px;
+  }
+  
+  .resolution-container {
+    display: flex;
+    max-width: 1200px;
+    gap: 40px; 
+  }
+  .info-cards h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 4rem;
+  }
+  
+  .resolution-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+  .resolution-content {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .pre-heading {
+    font-size: 14px;
+    color: #a0a0a0; 
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .resolution-content h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #333; 
+    margin: 0 0 20px;
+    line-height: 1.4;
+  }
+  
+  .resolution-content p {
+    font-size: 16px;
+    color: #666; 
+    margin: 0 0 20px;
+  }
+  
+  .resolution-link {
+    font-size: 16px;
+    color: #A51C30; 
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .resolution-link:hover {
+    text-decoration: underline;
+  }
+  .section2-img{
+    width: 50%;
+  }
+  .resolution-image{
+    width: 50%;
+    height: 70%;
+  }
+  
+  /* motivation-section code starts here  */
+
+  .motivation-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 40px 90px;
+    background-color: #F3F4F4;
+  }
+  
+  .quote-container {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .quote-container blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+    color: #222;
+    margin: 0 0 20px;
+    line-height: 1.5;
+    position: relative;
+  }
+  
+  .quote-container blockquote:before {
+    background-image: url("quote-small-crimson.svg");
+        background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 80px;
+    left: -5px;
+    position: absolute;
+    top: -52px;
+    width: 80px;
+    z-index: 0;
+  }
+ 
+  .info-cards{
+    background-color: #F3F4F4;
+  }
+  .quote-container .author {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .audio-placeholder {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .image-container img{
+    width: 100%;
+  }
+  .image-container {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* cards section code starts here  */
+
+  .card {
+    cursor: pointer;
+    width: 23rem;
+    height: 30rem;
+    border: 1px solid #ddd;
+    /* border-radius: 8px; */
+    overflow: hidden;
+    background-color: #E3E5E5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-tag {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 8px;
+  }
+  
+  .card-description {
+    font-size: 0.95em;
+    color: #555;
+    margin: 0 0 16px;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #28a745; 
+  }
+  
+  .status-text {
+    font-size: 0.9em;
+    color: #333;
+  }
+  .cards-container{
+    padding-top: 30px;
+    display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+  }
+
+  /* mental health section code start from here  */
+
+  .mental-health-section {
+    font-family: Arial, sans-serif;
+    margin: 0 2rem;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .text-content {
+    flex: 1 1 45%;
+    padding: 20px;
+  }
+  
+  .text-content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .text-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .text-content .learn-more-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .exercise-container {
+    flex: 1 1 45%;
+    padding: 20px;
+  }
+  
+  .exercise-container h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+    font-size: 3rem;
+    color: #A51C30;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .exercise-steps {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exercise-steps li {
+    margin-bottom: 15px;
+  }
+  
+  .exercise-steps li strong {
+    color: #a51c30; 
+    font-size: 1.2em;
+  }
+  
+  .image-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+
+  /* card container 2 section starts here  */
+  .overlaybookcard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+
+  }
+  .book-card {
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    color: black;
+  }
+  
+  .book-card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .book-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .book-subtitle {
+    color: #ffffff;
+    font-size: 16px;
+    margin: 5px 0 15px;
+  }
+  
+  .book-recommendation {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .book-explore-button {
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .book-explore-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #222;
+  }
+  
+  .card-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;  
+  }
+
+  .namemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+  }  
+  .namemain .left{
+    width: 40%;
+    height: 29vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .namemain .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 29vh;
+  }
+
+  /* paralell cards code start here  */
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 3rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.text-section {
+    max-width: 60%;
+}
+
+.text-section h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.text-section p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.text-section .description {
+    font-size: 14px;
+    color: #999;
+}
+
+.image-section img {
+    max-width: 90px;
+    height: auto;
+    display: block;
+}
+
+/* last section code starts here  */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.related-topics-section {
+  background-image: url('https://www.harvard.edu/wp-content/uploads/2024/12/051818_Winthrop_012.jpeg?w=1613'); 
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  text-align: left;
+  color: #000;
+  position: relative;
+}
+
+.overlayfoot{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+ background: #d3d2d2dc;;
+}
+.topics{
+  margin-right: 19rem;
+}
+.content {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 3rem;
+  margin: 0;
+  color: #000;
+  
+}
+
+.topics-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.topics-list li {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.topics-list li:hover {
+  color: #000;
+  border-color: #000;
+}
+
+/* here is the code for the footer  */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f9f9f9;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+  text-align: left;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.footer-branding {
+  text-align: left;
+  flex: 1;
+}
+
+.footer-branding img {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-branding p {
+  font-size: 15px;
+  color: #bbb;
+  margin: 0;
+}
+
+.social-icons {
+  flex: 1;
+  text-align: right;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+
+.social-icons img{
+  width: 3rem;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 900px) {
+  .hero-text h2{
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-links {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-column {
+      margin: 20px 0;
+      text-align: center;
+  }
+
+  .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-branding {
+      margin-bottom: 20px;
+  }
+  .social-icons {
+      justify-content: center;
+      
+  }
+
+  .social-icons a {
+      margin: 0 5px;
+  }
+  .resolution-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-container2{
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-container{
+    display: flex;
+    flex-direction: column;
+  }
+  body{
+    width: 100%;
+    }
+    .resolution-image {
+      width: 100%;
+  }
+  .description{
+    display: none;
+  }
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .content .topics{
+    margin-right: 0;
+  }
+  .content .topics-list{
+    margin-right: 0;
+  }
+  .header-actions{
+    width: 7rem;
+  }
+  .header-actions p{
+display: none;
+
+  }
+  .homepage-buttons{
+    width: 20px;
+    height: 20px;
+  }
+  .logo-img{
+    padding-left: 1.5rem;
+    height: 5rem;
+  }
+  
+  .hero-text h2{
+    font-size: 3rem;
+  }
+  .mental-health-section{
+    padding: 0;
+    margin: 0;
+  }
+  .motivation-section{
+    padding: 0 10px;
+    flex-direction: column;
+  }
+  
+  .card{
+    width: 100%;
+  }
+  .info-cards h1{
+    font-size: 2rem;
+  }
+  .book-card{
+    width: 90vw;
+  }
+  .container{
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .quote-container{
+    min-width: 100%;
+  }
+  .image-container{
+    min-width: 100%;
+  }
+}
